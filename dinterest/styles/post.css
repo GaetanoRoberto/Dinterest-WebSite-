@@ -1,0 +1,13 @@
+.container{
+    background-color: lightgray;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: large;
+    font-family: cursive;
+    border-radius: 30px;
+    padding: 50px;
+}
+

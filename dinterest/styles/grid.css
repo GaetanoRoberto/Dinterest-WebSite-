@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-gap: 1em;
+    align-items:center;
+    justify-content:center;
+}
+
+.wrapper img{
+    width:100%;
+    height:auto;
+    border-radius: 10px;
+}
+
+.topic{
+    position:relative;
+}
+
+.topic_title{
+    position:absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(41,49,51,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   font-size: 1.5em;
+   font-weight: bold;
+   text-decoration: none;
+   border-radius: 10px;
+   opacity:0;
+   transition: opacity .5s;
+}
+
+.topic:hover .topic_title{
+    opacity: 1;
+}

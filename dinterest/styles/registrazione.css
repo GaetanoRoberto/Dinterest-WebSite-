@@ -1,0 +1,42 @@
+@import 'login.css';
+
+.usn, .psw {
+	margin: 40px 0 10px 0;
+	width: 350px;
+	background-color: rgb(13,20,36);
+}
+
+.subm {
+	display: inline-block;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.inblock {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+button {
+	margin-bottom: 10px;
+}
+
+#msg {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#msg a {
+	color: rgb(25, 225,227);
+}
+
+.warning {
+	margin: 8px 0 8px 0;
+	display: none;
+}
+
+.checkboxgroup{
+    display: flex;
+}
